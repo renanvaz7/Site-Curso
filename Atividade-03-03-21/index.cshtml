@@ -3,43 +3,35 @@
 <head>
     <meta charset="utf-8" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <title>Página do curso de gastronomia</title>
+    <title>Página inicial do curso de gastronomia</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Técnico em gastronomia</h1>
-        <p>
-            O curso técnico em Gastronomia do CEET Vasco Coutinho 
-            foi planejado com o objetivo de proporcionar ao estudante 
-            copetências para atuar no mercado de trabalho de cozinhas 
-            industriais em hotéis, restaurantes e lanchonetes, além de 
-            aprender sobre produção em alta escala para poder servir em 
-            cruzeiros, padarias e buffet’s.
-            No curso o aluno irá aprender a planejar cardápios, métodos 
-            de preparação de guarnições, utilização de utensílios, manipulação 
-            de alimentos e seu armazenamento.
-            A Gastronomia é uma área que está em alta, especialmente depois da 
-            atenção dada pela mídia com seus programas(MasterChef Brasil, Cozinha 
-            sobre Pressão, BBQ e entre outros). Por essas razões, temos o orgulho 
-            de sermos o 1º Curso Técnico de Nível Médio em Gastronomia do Estado 
-            do Espírito Santo e o 2º do Brasil.
-        </p>
-        <hr />
-        <p>
-            <strong>Missão:</strong>
-            <br />
-            Promover uma educação humanística de qualidade, visando à formação de 
-            cidadãos críticos, conscientes, atuantes e eticamente comprometidos 
-            com as transformações sociais, políticas, culturais e ambientais.
-        </p>
-        <p>
-            <strong>Objetivo:</strong>
-            <br />
-            Preparar os profissionais que já estão no mercado e os que nele pretendem 
-            se inserir, oferecendo conhecimento teórico e prático nas diversas atividades 
-            de cozinha, proporcionando os conhecimentos necessários para que o aluno 
-            desenvolva as competências e habilidades profissionais necessárias ao curso.
-        </p>
+    <div class="container-fluid">
+        <img src="~/img/VAscoBanner4K.png" class="img-fluid" alt="Ceet Vasco Coutinho" style="height:600px; width:max-content" />
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="~/index.cshtml">Curso de culinária</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Introducao.cshtml">Apresentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/SobreCurso.cshtml">Sobre o curso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeria de fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/contato.aspx">Formulário de contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
